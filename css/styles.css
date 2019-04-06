@@ -1,33 +1,33 @@
 .header {
+  background-image: url('../images/header2.jpg');
+  background-size: auto;
   padding: 30px;
   text-align: center;
-  background: #1abc9c;
-  color: white;
+  color: Black;
   font-size: 20px;
 }
 
-.fa {
-  padding: 10px;
-  font-size: 15px;
-  width: 10px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
+.icons {
+  float: right;
 }
-
-.fa:hover {
-    opacity: 0.7;
+.facebook {
+  background-image: url('http://www.governancenow.com/images/facebook.png');
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  float: right;
 }
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
+.twitter {
+  background-image: url('http://kmwordsmith.com/images/round-sm-icons-twitter.gif');
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
 }
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
+.wrapper {
+  float: left;
+  width: 70%;
 }
 
 /* Style the links inside the sidenav */
@@ -66,4 +66,9 @@
 #contact {
   top: 460px;
   background-color: #555 /* Light Black */
+}
+
+.mycalendar{
+ width: 350px;
+ margin-left:200px;
 }
