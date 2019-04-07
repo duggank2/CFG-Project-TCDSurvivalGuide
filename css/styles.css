@@ -9,6 +9,8 @@
 
 .icons {
   float: right;
+  height: 50px;
+  width: 100%;
 }
 .facebook {
   background-image: url('http://www.governancenow.com/images/facebook.png');
@@ -33,11 +35,12 @@
 /* Style the links inside the sidenav */
 #mySidenav a {
   position: absolute; /* Position them relative to the browser window */
-  left: -80px; /* Position them outside of the screen */
+  left: -40px; /* Position them outside of the screen */
   transition: 0.3s; /* Add transition on hover */
   padding: 15px; /* 15px padding */
   width: 100px; /* Set a specific width */
   text-decoration: none; /* Remove underline */
+  text-align: right;
   font-size: 20px; /* Increase font size */
   color: white; /* White text color */
   border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
@@ -66,9 +69,4 @@
 #contact {
   top: 460px;
   background-color: #555 /* Light Black */
-}
-
-.mycalendar{
- width: 350px;
- margin-left:200px;
 }
