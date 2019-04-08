@@ -47,7 +47,7 @@
 }
 
 #mySidenav a:hover {
-  left: 0; /* On mouse-over, make the elements appear as they should */
+  left: -30px; /* On mouse-over, make the elements appear as they should */
 }
 
 /* The about link: 20px from the top with a green background */
@@ -72,5 +72,5 @@
 }
 
 .content{
-  margin-left:100px;
+  margin-left:110px;
 }
