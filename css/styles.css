@@ -18,6 +18,7 @@
   height: 50px;
   display: inline-block;
   float: right;
+  margin-right: 15px;
 }
 .twitter {
   background-image: url('http://kmwordsmith.com/images/round-sm-icons-twitter.gif');
@@ -72,5 +73,5 @@
 }
 
 .content{
-  margin-left:150px;
+  margin-left:0px;
 }
