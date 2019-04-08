@@ -22,7 +22,7 @@ function Foodclick() {
 
 function Disclick() {
   document.getElementById("offers")
-  window.open("index.html","_self");
+  window.open("Offers.html","_self");
 }
 
 function Contactclick() {
